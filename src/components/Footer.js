@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <div>
       <footer class="p-3 text-center text-black ">
-        <p>Copyright 2022 © Islamitude</p>
         <div className="row">
           <div className="col-md ">
             <a href="/about" className="mx-3">
@@ -15,6 +14,9 @@ const Footer = () => {
             </a>
             <a href="https://www.buymeacoffee.com/islamitude" className="mx-3">
               Support
+            </a>
+            <a href="Copyright" className="mx-3">
+              Copyright
             </a>
           </div>
         </div>

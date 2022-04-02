@@ -48,12 +48,11 @@ a {
 /* Media Query */
 @media only screen and (max-width: 425px) {
   .btn-primary {
-    width: 240px;
-    height: 100px;
-    font-size: 30px !important;
+    width: 250px;
+    height: 80px;
   }
   h1 {
-    font-size: 70px !important;
+    font-size: 60px !important;
   }
 
   .islamitude--logo {

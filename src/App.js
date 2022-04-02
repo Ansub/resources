@@ -11,6 +11,7 @@ import Charities from "./components/Charities"
 import Apps from "./components/Apps"
 import FivePillars from "./components/FivePillars"
 import About from "./components/About"
+import Copyright from "./components/Copyright"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route exact path="/apps" component={Apps} />
       <Route exact path="/Charities" component={Charities} />
       <Route exact path="/About" component={About} />
+      <Route exact path="/Copyright" component={Copyright} />
     </div>
   )
 }

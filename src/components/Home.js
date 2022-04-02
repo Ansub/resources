@@ -24,19 +24,31 @@ const Home = () => {
               <div className="col-md">
                 <a href="/quran">
                   <button className="btn btn-primary  m-3">
-                    <img src={quranLogo} alt="quran" class="img-fluid px-1" />
+                    <img
+                      src={quranLogo}
+                      alt="quran"
+                      class="img-fluid px-1 icons"
+                    />
                     Quran
                   </button>
                 </a>
                 <a href="/hadith">
                   <button className="btn btn-primary  m-3">
-                    <img src={hadithLogo} alt="hadith" class="img-fluid px-1" />
+                    <img
+                      src={hadithLogo}
+                      alt="hadith"
+                      class="img-fluid px-1 icons"
+                    />
                     Hadith
                   </button>
                 </a>
                 <a href="/books">
                   <button className="btn btn-primary  m-3">
-                    <img src={booksLogo} alt="books" class="img-fluid px-1" />
+                    <img
+                      src={booksLogo}
+                      alt="books"
+                      class="img-fluid px-1 icons"
+                    />
                     Books
                   </button>
                 </a>
@@ -46,12 +58,16 @@ const Home = () => {
               <div className="col-md">
                 <a href="/apps">
                   <button className="btn btn-primary m-3">
-                    <img src={appsLogo} alt="apps" class="img-fluid px-1" />
+                    <img
+                      src={appsLogo}
+                      alt="apps"
+                      class="img-fluid px-1 icons"
+                    />
                     Apps
                   </button>
                 </a>
                 <a href="/fivepillars">
-                  <button className="btn btn-primary m-3 ">
+                  <button className="btn btn-primary m-3 icons">
                     <img
                       src={pillarsLogo}
                       alt="pillars"
@@ -61,7 +77,7 @@ const Home = () => {
                   </button>
                 </a>
                 <a href="/charities">
-                  <button className="btn btn-primary  m-3">
+                  <button className="btn btn-primary  m-3 icons">
                     <img
                       src={charityLogo}
                       alt="charity"
