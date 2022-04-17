@@ -11,14 +11,15 @@ import Footer from "./Footer"
 const Home = () => {
   return (
     <div>
-      <section className="p-5 text-white text-center">
-        <div className="container">
+      <section className="text-black text-center">
+        <div className="container-xl">
           <div className="row d-flex align-items-center justify-content-center">
             <img
               src={Logo}
               alt="islamitude-logo"
               class="img-fluid  islamitude--logo"
             />
+            <p className="lead">All-in-one Islamic Resource App</p>
 
             <div className="row">
               <div className="col-md">
@@ -76,7 +77,7 @@ const Home = () => {
                     5 Pillars
                   </button>
                 </a>
-                <a href="/charities">
+                <a href="/faqs">
                   <button className="btn btn-primary  m-3 icons">
                     <img
                       src={charityLogo}

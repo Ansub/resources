@@ -7,7 +7,7 @@ const Hadith = () => {
     <div>
       <Navbar />
       <section className="text-center p-5">
-        <div className="container">
+        <div className="container-xl">
           <h1>Hadiths</h1>
           <div className="row my-5">
             <div className="col-md">

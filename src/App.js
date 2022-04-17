@@ -7,7 +7,7 @@ import Home from "./components/Home"
 import Quran from "./components/Quran"
 import Hadith from "./components/Hadith"
 import Books from "./components/Books"
-import Charities from "./components/Charities"
+import Faqs from "./components/Faqs"
 import Apps from "./components/Apps"
 import FivePillars from "./components/FivePillars"
 import About from "./components/About"
@@ -22,7 +22,7 @@ function App() {
       <Route exact path="/books" component={Books} />
       <Route exact path="/fivepillars" component={FivePillars} />
       <Route exact path="/apps" component={Apps} />
-      <Route exact path="/Charities" component={Charities} />
+      <Route exact path="/faqs" component={Faqs} />
       <Route exact path="/About" component={About} />
       <Route exact path="/Copyright" component={Copyright} />
     </div>

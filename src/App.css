@@ -14,6 +14,11 @@ h3 {
   font-weight: 300 !important;
 }
 
+h4 {
+  font-size: 35px !important;
+  font-weight: 600 !important;
+}
+
 a {
   text-decoration: none !important;
   color: black !important;
@@ -41,15 +46,29 @@ a {
   font-weight: bold !important;
 }
 
+.btn-success {
+  background: #e5c500 !important;
+  color: black !important;
+  border: 0px !important;
+  padding: 10px !important;
+}
+
 .islamitude--logo {
   width: 300px !important;
+}
+
+.card {
+  width: 350px !important;
+  height: 250px !important;
+  background: #fff4b4 !important;
+  padding: 30px;
 }
 
 /* Media Query */
 @media only screen and (max-width: 425px) {
   .btn-primary {
-    width: 250px;
-    height: 80px;
+    width: 250px !important;
+    height: 80px !important;
   }
   h1 {
     font-size: 60px !important;
